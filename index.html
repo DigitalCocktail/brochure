@@ -169,11 +169,15 @@
 
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.min.js"></script>
+		<script src="js/jquery-2.1.0.min.js"></script>
 
 		<script>
-
 			// Full list of configuration options available here:
 			// https://github.com/hakimel/reveal.js#configuration
+			$(function() {	
+				$(".navigate-up").css('display','none');
+				$(".navigate-down").css('display','none');
+			});			
 			Reveal.initialize({
 				controls: true,
 				progress: true,
