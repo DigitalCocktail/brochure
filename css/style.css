@@ -9,3 +9,23 @@
   transition: all .2s linear; 
   border: none;
 }
+.barra-colores {
+	width: 1%;
+	height: 100%;
+	float: left;
+}
+.verde {
+	background-color: #99cc33;
+	height: 33.3%;
+	width: 100%;
+}
+.rojo {
+	background-color: #e42322;
+	height: 33.3%;
+	width: 100%;
+}
+.azul {
+	background-color: #00afef;
+	height: 33.3%;
+	width: 100%
+}
