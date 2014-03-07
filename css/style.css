@@ -1,3 +1,6 @@
+body{
+	font-family: 'Oxygen', sans-serif;
+}
 .reveal section img.no-border {
   margin: 15px 0px;
   background: none;
@@ -28,4 +31,24 @@
 	background-color: #00afef;
 	height: 33.3%;
 	width: 100%
+}
+.reveal .slides{
+	width: 80% !important; 
+}
+.reveal header>h2{
+	font-family: 'Oxygen', sans-serif;
+	text-transform: none;
+	text-align: left;
+	font-size: 1.2em;
+}
+.contenido{
+	text-align: left;
+}
+.contenido p{
+	text-align: justify;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 0.6em;
+}
+.contenido img.img-contenido{
+	float: left;
 }
