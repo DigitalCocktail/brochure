@@ -46,18 +46,40 @@ body{
 	background: url(../img/logo-simbolo-header.jpg) left center no-repeat #e42322;
 	background-size: contain;
 }
-.contenido{
+.reveal .contenido{
 	text-align: left;
+	overflow: auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	align-items: center;
 }
-.contenido p{
+.reveal .contenido p {
 	text-align: justify;
 	font-family: 'Oxygen', sans-serif;
 	font-size: 0.6em;
 	padding: 0 2em 0 0;
+	line-height: 1.5em;
+	margin-bottom: 1.2em;
+}
+.reveal ul>li {
+	font-family: 'Oxygen', sans-serif;
+	font-size: 0.6em;
+	list-style: square;
+}
+.reveal .img-contenedor{
+	float: left;
+	width: 38%;
+	height: 100%;
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+
+}
+.reveal .texto-contenedor{
+	width: 55%;
+	float: right;
 }
 .reveal section .contenido img.img-contenido{
-	float: left;
-	margin-right: 1em;
-	width: 40% !important;
+	width: 100% !important;
 	height: auto !important;
 }
