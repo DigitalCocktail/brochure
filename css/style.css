@@ -37,9 +37,14 @@ body{
 }
 .reveal header>h2{
 	font-family: 'Oxygen', sans-serif;
+	color: #fff;
 	text-transform: none;
 	text-align: left;
-	font-size: 1.2em;
+	font-size: 1em;
+	margin: 0 0 1.2em 0.5em;
+	padding: 0.6em 0.6em 0.6em 2.7em;
+	background: url(../img/logo-simbolo-header.jpg) left center no-repeat #e42322;
+	background-size: contain;
 }
 .contenido{
 	text-align: left;
@@ -48,7 +53,11 @@ body{
 	text-align: justify;
 	font-family: 'Oxygen', sans-serif;
 	font-size: 0.6em;
+	padding: 0 2em 0 0;
 }
-.contenido img.img-contenido{
+.reveal section .contenido img.img-contenido{
 	float: left;
+	margin-right: 1em;
+	width: 40% !important;
+	height: auto !important;
 }
