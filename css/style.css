@@ -83,3 +83,36 @@ body{
 	width: 100% !important;
 	height: auto !important;
 }
+
+#imgLogo{
+/*animation-delay*/
+-webkit-animation-delay:0.2s;
+   -moz-animation-delay:0.2s;
+    -ms-animation-delay:0.2s;
+     -o-animation-delay:0.2s;
+        animation-delay:0.2s;
+}
+#imgEstrategiasDigitales{
+/*animation-delay*/
+-webkit-animation-delay:0.2s;
+   -moz-animation-delay:0.2s;
+    -ms-animation-delay:0.2s;
+     -o-animation-delay:0.2s;
+        animation-delay:0.2s;
+}
+#textoEstrategiasDigitales{
+/*animation-delay*/
+-webkit-animation-delay:0.2s;
+   -moz-animation-delay:0.2s;
+    -ms-animation-delay:0.2s;
+     -o-animation-delay:0.2s;
+        animation-delay:0.2s;
+}
+#tituloEstrategiasDigitales{
+/*animation-delay*/
+-webkit-animation-delay:0.2s;
+   -moz-animation-delay:0.2s;
+    -ms-animation-delay:0.2s;
+     -o-animation-delay:0.2s;
+        animation-delay:0.2s;
+}
