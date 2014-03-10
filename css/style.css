@@ -334,3 +334,13 @@ body{
      -o-animation-delay:0.3s;
         animation-delay:0.3s;
 }
+
+/*estilos para móviles*/
+.reveal .slides.slides-movil{
+  width: 150% !important;
+}
+@media all and (orientation: portrait) { 
+  .reveal header>h2{
+    font-size: 0.8em;
+  } 
+}
